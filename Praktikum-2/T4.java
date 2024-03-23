@@ -23,7 +23,7 @@ class Mahasiswa {
 
     public String getAlamat() {
         if (alamat != null) {
-            return alamat.jalan + ", " + alamat.getKota();
+            return alamat.getJalan() + ", " + alamat.getKota();
         } else {
             return "Alamat not set";
         }
